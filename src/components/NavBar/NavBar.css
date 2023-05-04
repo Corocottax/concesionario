@@ -1,0 +1,21 @@
+nav {
+    height: 10vh;
+    background-color: var(--buttons);
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+nav > ul li a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--primary);
+}

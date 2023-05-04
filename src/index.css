@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Kanit', sans-serif;
+}
+
+:root {
+  --primary: #FFFFFF;
+  --buttons: #ff6e6c;
+  --secondary: #67568c;
+  --terciary: #fbdd74;
+  --contrast: #1f1235;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--primary);
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}

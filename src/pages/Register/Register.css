@@ -1,0 +1,51 @@
+.register-form {
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.register-form > form {
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: var(--terciary);
+}
+
+.register-form > form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register-form > form input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.register-form > form button {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--buttons);
+    color: var(--primary);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    height: 30px;
+}
